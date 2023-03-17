@@ -24,6 +24,6 @@ app.use(
         extended: 'true',
     }),
 );
-                        app.use(express.json());
+app.use(express.json());
 
 app.listen(3000);
