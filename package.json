@@ -8,7 +8,8 @@
     "watch": "node-sass --watch src/resources/scss/app.scss --output src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "beautiful": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
   },
   "author": "long",
   "license": "ISC",
