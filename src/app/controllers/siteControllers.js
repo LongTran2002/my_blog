@@ -1,6 +1,8 @@
+const Book = require('../models/Book');
 class SiteController {
     index(req, res) {
-        res.render('home');
+        console.log(req.body);
+        res.json(req.body);
     }
 }
 
