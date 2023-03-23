@@ -1,7 +1,7 @@
 
 class NewsController{
     index(req, res){
-        res.render('news');
+        res.json(req.body);
     }
 }
 
