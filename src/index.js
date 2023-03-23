@@ -9,8 +9,8 @@ const bodyParser = require('body-parser');
 const db = require('./config/db');
 
 route(app);
-app.use(express.json()); // for parsing application/json
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 //Conect to DB
 db.connect();
